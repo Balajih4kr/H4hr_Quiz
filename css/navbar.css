@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    border-bottom: 1px solid #00ff00;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #00ff00 !important;
+    animation: glow 1.5s infinite alternate;
+}
+
+.nav-link {
+    color: #00ff00 !important;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    transform: scale(1.1);
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+    }
+}        body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    border-bottom: 1px solid #00ff00;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #00ff00 !important;
+    animation: glow 1.5s infinite alternate;
+}
+
+.nav-link {
+    color: #00ff00 !important;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    transform: scale(1.1);
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+    }
+}        body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    border-bottom: 1px solid #00ff00;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #00ff00 !important;
+    animation: glow 1.5s infinite alternate;
+}
+
+.nav-link {
+    color: #00ff00 !important;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    transform: scale(1.1);
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+    }
+}

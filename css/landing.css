@@ -1,0 +1,74 @@
+.landing {
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.landing h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: glow 1.5s infinite alternate;
+}
+
+.landing p {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    color: #00ff00;
+    background: black;
+    border: 2px solid #00ff00;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    animation: glow 1.5s infinite alternate;
+}
+
+.cta-button:hover {
+    background: #00ff00;
+    color: black;
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .landing h2 {
+        font-size: 2.5rem;
+    }
+
+    .landing p {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+    }
+}
