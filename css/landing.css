@@ -6,19 +6,19 @@
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    animation: fadeIn 1.5s ease-in-out;
+    /* animation: fadeIn 1.5s ease-in-out; */
 }
 
 .landing h2 {
     font-size: 3rem;
     margin-bottom: 20px;
-    animation: glow 1.5s infinite alternate;
+    /* animation: glow 1.5s infinite alternate; */
 }
 
 .landing p {
     font-size: 1.8rem;
     margin-bottom: 30px;
-    animation: fadeInUp 2s ease-in-out;
+    /* animation: fadeInUp 2s ease-in-out; */
 }
 
 .cta-button {
@@ -39,7 +39,7 @@
     transform: scale(1.1);
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -57,7 +57,7 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
 @media (max-width: 768px) {
     .landing h2 {
