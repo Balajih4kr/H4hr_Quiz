@@ -29,7 +29,11 @@ jobs:
       env:
         DEPLOY_USER: BALAJI.A
         DEPLOY_HOST: 172.30.17.173
+<<<<<<< HEAD
         DEPLOY_PATH: /var/www/html
+=======
+        DEPLOY_PATH: /var/www/html/
+>>>>>>> 725d1bf (checking deploy)
       run: |
         # Remove the .git directory
         rm -rf .git
