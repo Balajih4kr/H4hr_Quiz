@@ -23,7 +23,10 @@ jobs:
 
     # Step 3: Install Dependencies
     - name: Install Dependencies
-      run: composer install --no-dev --optimize-autoloader
+  run: |
+    cd /quiz/composer
+    composer install --no-dev --optimize-autoloader
+
 
     # Step 4: Remove .git and Deploy to Server
     - name: Deploy to Server
